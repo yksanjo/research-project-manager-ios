@@ -1,5 +1,8 @@
 # Yoshi's Transcriber
 
+[![GitHub stars](https://img.shields.io/github/stars/yksanjo/research-project-manager-ios?style=social)](https://github.com/yksanjo/research-project-manager-ios/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/research-project-manager-ios.svg)](https://github.com/yksanjo/research-project-manager-ios/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/research-project-manager-ios.svg)](https://github.com/yksanjo/research-project-manager-ios/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/research-project-manager-ios.svg)](https://github.com/yksanjo/research-project-manager-ios/commits/main)
+
+
 A beautiful web application for real-time speech transcription using the Web Speech API.
 
 ## Features
