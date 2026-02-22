@@ -1,61 +1,84 @@
-# Yoshi's Transcriber
+# research-project-manager-ios
 
-[![GitHub stars](https://img.shields.io/github/stars/yksanjo/research-project-manager-ios?style=social)](https://github.com/yksanjo/research-project-manager-ios/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/research-project-manager-ios.svg)](https://github.com/yksanjo/research-project-manager-ios/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/research-project-manager-ios.svg)](https://github.com/yksanjo/research-project-manager-ios/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/research-project-manager-ios.svg)](https://github.com/yksanjo/research-project-manager-ios/commits/main)
+## Detailed Description
 
+research-project-manager-ios is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-[![GitHub stars](https://img.shields.io/github/stars/yksanjo/research-project-manager-ios?style=social)](https://github.com/yksanjo/research-project-manager-ios/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/research-project-manager-ios.svg)](https://github.com/yksanjo/research-project-manager-ios/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/research-project-manager-ios.svg)](https://github.com/yksanjo/research-project-manager-ios/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/research-project-manager-ios.svg)](https://github.com/yksanjo/research-project-manager-ios/commits/main)
+## Problem Statement
 
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-A beautiful web application for real-time speech transcription using the Web Speech API.
+## Solution Overview
 
-## Features
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-- 🎤 Real-time speech recognition
-- 📋 Copy transcribed text with one click
-- 🎨 Modern, responsive UI
-- ⚡ Fast and lightweight
-- 🌐 Works in Chrome, Edge, and Safari
+## Key Features
 
-## Local Development
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
 
-1. Install dependencies:
-```bash
-npm install
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
 ```
 
-2. Start the server:
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
+
 ```bash
-npm start
+npm ci
+npm run lint
+npm test
+npm run build
 ```
-
-3. Open your browser and navigate to `http://localhost:3000`
-
-## Deployment on Railway
-
-This app is ready to deploy on Railway:
-
-1. Connect your GitHub repository to Railway
-2. Railway will automatically detect the Node.js app
-3. Deploy!
-
-The app will be available at your Railway-provided URL.
 
 ## Usage
 
-1. Click "Start Recording" to begin transcription
-2. Speak into your microphone
-3. View real-time transcription
-4. Click "Copy Text" to copy the transcribed text
-5. Click "Stop Recording" when finished
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-## Browser Support
+## Quality Standards
 
-- Chrome/Chromium (recommended)
-- Microsoft Edge
-- Safari
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-Note: Firefox does not support the Web Speech API.
+## Security
+
+See `SECURITY.md` for responsible disclosure and handling guidelines.
+
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
 ## License
 
-MIT
+This project is released under the MIT License.
